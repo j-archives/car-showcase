@@ -3,20 +3,21 @@ body {
 }
 
 .main-container {
-    background-color: red;
+    /* background-color: red; */
+    margin: 10px 20px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    /* background-color: aqua; */
     padding: 10px;
     align-items: center;
 }
 
 
 #credit-logo, #logo-el {
-    background-color: violet;   
+    /* background-color: violet;    */
     margin: 0;
            
 }
@@ -39,6 +40,17 @@ body {
     width: 120px;
 }
 
-.menu-container {
-   
+.body {
+    display: flex;
+    background-color: blanchedalmond;
+    height: 200px;
+    justify-content: space-between;
+}
+
+#car-el {
+    width: 800px;
+    background-color: red;
+    height: 450px;
+    padding: 0;
+    margin: 0;
 }
